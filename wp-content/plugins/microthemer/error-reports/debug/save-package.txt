@@ -1,0 +1,447 @@
+Array
+(
+    [0] => ### Save Package Before and After ###
+    [1] => Array
+        (
+            [before  (replace)] => opts-general-headline_23_225
+            [after  (replace)] => opts-general-headline_23_225
+            [update_package  (replace)] => Array
+                (
+                    [trail] => Array
+                        (
+                            [0] => non_section
+                            [1] => meta
+                            [2] => last_viewed_selector
+                        )
+
+                    [action] => replace
+                    [data] => opts-general-headline_23_225
+                    [callerFunc] => 
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Full options:] => Array
+                (
+                    [general] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => General
+                                    [index] => 0
+                                    [has_values] => 1
+                                )
+
+                            [inner_content_3_306_heading_2] => Array
+                                (
+                                    [label] => Inner content 3 306 heading 2|#inner_content-3-306 > h2
+                                    [styles] => Array
+                                        (
+                                            [code] => Array
+                                                (
+                                                    [css] => Array
+                                                        (
+                                                            [value] => consolidatedGUI
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [jsu] => 7
+                                    [compiled_css] => #inner_content-3-306 > h2 {
+	
+}
+
+                                    [index] => 0
+                                    [has_values] => 1
+                                    [ast] => Array
+                                        (
+                                            [rules] => Array
+                                                (
+                                                    [code] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [headline_23_225] => Array
+                                (
+                                    [label] => Headline 23 225|#headline-23-225 p.testme p.plplplp
+                                    [jsu] => 7
+                                    [compiled_css] => #headline-23-225 p.testme p.plplpl {
+	
+}
+#headline-23-225 p.testme p.plplplp {
+	font-size: 3.6rem !important;
+	background-position: center top !important;
+	background-repeat: repeat-y !important;
+	background-size: contain !important;
+}
+
+                                    [index] => 1
+                                    [has_values] => 1
+                                    [styles] => Array
+                                        (
+                                            [font] => Array
+                                                (
+                                                    [font_size] => Array
+                                                        (
+                                                            [value] => 3.6
+                                                            [unit] => rem
+                                                        )
+
+                                                )
+
+                                            [background] => Array
+                                                (
+                                                    [background_position] => Array
+                                                        (
+                                                            [value] => center top
+                                                        )
+
+                                                    [background_repeat] => Array
+                                                        (
+                                                            [value] => repeat-y
+                                                        )
+
+                                                    [background_size] => Array
+                                                        (
+                                                            [value] => contain
+                                                        )
+
+                                                )
+
+                                            [code] => Array
+                                                (
+                                                    [css] => Array
+                                                        (
+                                                            [value] => consolidatedGUI
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [ast] => Array
+                                        (
+                                            [rules] => Array
+                                                (
+                                                    [font] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => rule
+                                                                    [selectors] => Array
+                                                                        (
+                                                                            [0] => #headline-23-225 p.testme p.plplplp
+                                                                        )
+
+                                                                    [declarations] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => declaration
+                                                                                    [property] => font-size
+                                                                                    [value] => 3.6rem
+                                                                                    [skip] => 
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [background] => Array
+                                                        (
+                                                            [0] => Array
+                                                                (
+                                                                    [type] => rule
+                                                                    [selectors] => Array
+                                                                        (
+                                                                            [0] => #headline-23-225 p.testme p.plplplp
+                                                                        )
+
+                                                                    [declarations] => Array
+                                                                        (
+                                                                            [0] => Array
+                                                                                (
+                                                                                    [type] => declaration
+                                                                                    [property] => background-position
+                                                                                    [value] => center top
+                                                                                    [skip] => 
+                                                                                )
+
+                                                                            [1] => Array
+                                                                                (
+                                                                                    [type] => declaration
+                                                                                    [property] => background-repeat
+                                                                                    [value] => repeat-y
+                                                                                    [skip] => 
+                                                                                )
+
+                                                                            [2] => Array
+                                                                                (
+                                                                                    [type] => declaration
+                                                                                    [property] => background-size
+                                                                                    [value] => contain
+                                                                                    [skip] => 
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [code] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [header] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => Header
+                                    [index] => 100
+                                )
+
+                        )
+
+                    [main_menu] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => Main Menu
+                                    [index] => 200
+                                )
+
+                        )
+
+                    [content] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => Content
+                                    [index] => 300
+                                )
+
+                        )
+
+                    [sidebar] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => Sidebar
+                                    [index] => 400
+                                )
+
+                        )
+
+                    [footer] => Array
+                        (
+                            [this] => Array
+                                (
+                                    [label] => Footer
+                                    [index] => 500
+                                )
+
+                        )
+
+                    [non_section] => Array
+                        (
+                            [meta] => Array
+                                (
+                                    [last_viewed_selector] => opts-general-headline_23_225
+                                    [user_action] => Array
+                                        (
+                                            [items] => Array
+                                                (
+                                                    [0] => MT data structure updated
+                                                )
+
+                                            [icon] => data-structure lg-icon
+                                            [pathTT_html] => 
+                                            [icon_html] => <span class="h-i no-click data-structure lg-icon" ></span>
+                                            [target_depth] => MT data structure updated
+                                            [main_class] => 
+                                            [targ_and_val] => <span class="his-items"><span>MT data structure updated</span></span>
+                                            [html] => <span class="history-item history_mt_data_structure_updated"><span class="his-items"><span>MT data structure updated</span></span></span>
+                                            [plain_object] => Array
+                                                (
+                                                    [items] => Array
+                                                        (
+                                                            [0] => MT data structure updated
+                                                        )
+
+                                                    [icon] => data-structure lg-icon
+                                                )
+
+                                        )
+
+                                )
+
+                            [last_save_time] => 1600877818
+                            [mt_version] => 6.3.1.8
+                            [important] => Array
+                                (
+                                    [general] => Array
+                                        (
+                                            [headline_23_225] => 
+                                        )
+
+                                    [m_query] => Array
+                                        (
+                                            [5f6352662d506_oxy_page_width] => Array
+                                                (
+                                                    [general] => Array
+                                                        (
+                                                            [headline_23_225] => 
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [m_query] => Array
+                                (
+                                    [5f6352662d506_oxy_page_width] => Array
+                                        (
+                                            [general] => Array
+                                                (
+                                                    [headline_23_225] => Array
+                                                        (
+                                                            [jsu] => 7
+                                                            [compiled_css] => #headline-23-225 p.testme p.plplplp {
+	
+}
+
+                                                            [styles] => Array
+                                                                (
+                                                                    [code] => Array
+                                                                        (
+                                                                            [css] => Array
+                                                                                (
+                                                                                    [value] => consolidatedGUI
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [has_values] => 1
+                                                            [ast] => Array
+                                                                (
+                                                                    [rules] => Array
+                                                                        (
+                                                                            [code] => Array
+                                                                                (
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                        )
+
+                                                    [inner_content_3_306_heading_2] => Array
+                                                        (
+                                                            [styles] => Array
+                                                                (
+                                                                    [dimensions] => Array
+                                                                        (
+                                                                            [height] => Array
+                                                                                (
+                                                                                    [unit] => %
+                                                                                    [value] => 100
+                                                                                )
+
+                                                                        )
+
+                                                                    [code] => Array
+                                                                        (
+                                                                            [css] => Array
+                                                                                (
+                                                                                    [value] => consolidatedGUI
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [jsu] => 7
+                                                            [ast] => Array
+                                                                (
+                                                                    [rules] => Array
+                                                                        (
+                                                                            [dimensions] => Array
+                                                                                (
+                                                                                    [0] => Array
+                                                                                        (
+                                                                                            [type] => rule
+                                                                                            [selectors] => Array
+                                                                                                (
+                                                                                                    [0] => #inner_content-3-306 > h2
+                                                                                                )
+
+                                                                                            [declarations] => Array
+                                                                                                (
+                                                                                                    [0] => Array
+                                                                                                        (
+                                                                                                            [type] => declaration
+                                                                                                            [property] => height
+                                                                                                            [value] => 100%
+                                                                                                        )
+
+                                                                                                )
+
+                                                                                        )
+
+                                                                                )
+
+                                                                            [code] => Array
+                                                                                (
+                                                                                )
+
+                                                                        )
+
+                                                                )
+
+                                                            [compiled_css] => #inner_content-3-306 > h2 {
+	height: 100% !important;
+}
+
+                                                            [has_values] => 1
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [active_events] => 
+                        )
+
+                )
+
+        )
+
+)

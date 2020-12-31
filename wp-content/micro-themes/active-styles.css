@@ -1,0 +1,118 @@
+/*  MICROTHEMER STYLES  */
+
+/*= Animations ================ */
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+/*= General =================== */
+
+/** General >> Post 14 uagb ifb img src **/
+#post-14 .uagb-ifb-img-src {
+	
+}
+#post-14 .uagb-ifb-img-src.mt-inview_once {
+	/* MT [ sub: 1 | group: animation | event: 1 ] */
+	-webkit-animation-name: fadeInDown !important;
+	animation-name: fadeInDown !important;
+	-webkit-animation-duration: 2s !important;
+	animation-duration: 2s !important;
+	-webkit-animation-delay: 1s !important;
+	animation-delay: 1s !important;
+	-webkit-animation-direction: normal !important;
+	animation-direction: normal !important;
+	-webkit-animation-play-state: running !important;
+	animation-play-state: running !important;
+}
+
+/** General >> Post 14 uagb ifb title **/
+#post-14 .uagb-ifb-title {
+	-o-transition-duration: 0.5s !important;
+	-moz-transition-duration: 0.5s !important;
+	-webkit-transition-duration: 0.5s !important;
+	transition-duration: 0.5s !important;
+	-webkit-transition-delay: 1s !important;
+	transition-delay: 1s !important;
+}
+#post-14 .uagb-ifb-title.mt-inview {
+	/* MT [ sub: 1 | group: animation | event: 1 ] */
+	-webkit-animation-name: fadeInLeft !important;
+	animation-name: fadeInLeft !important;
+	-webkit-animation-duration: 3s !important;
+	animation-duration: 3s !important;
+	-webkit-animation-delay: 1s !important;
+	animation-delay: 1s !important;
+	-webkit-animation-play-state: running !important;
+	animation-play-state: running !important;
+}
+
+/** General >> botao e video **/
+#post-14 .uagb-ifb-text-wrap {
+	
+}
+#post-14 .uagb-ifb-text-wrap.mt-inview {
+	/* MT [ sub: 1 | group: animation | event: 1 ] */
+	-webkit-animation-name: fadeInLeft !important;
+	animation-name: fadeInLeft !important;
+	-webkit-animation-duration: 3s !important;
+	animation-duration: 3s !important;
+	-webkit-animation-delay: 1s !important;
+	animation-delay: 1s !important;
+	-webkit-animation-play-state: running !important;
+	animation-play-state: running !important;
+}
+
